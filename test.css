@@ -1,0 +1,28 @@
+/* for all tag */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#magic {
+  color: red;
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"), auto;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* for reverse
+    flex-direction: row-reverse; */
+}
+.box {
+  padding: 20px;
+  background-color: brown;
+  width: 110px;
+}
+.box2 {
+  background-color: rgb(125, 196, 20);
+}
+.box3 {
+  background-color: blue;
+}

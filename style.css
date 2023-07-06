@@ -1,0 +1,33 @@
+/* for all tag */
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu-container {
+  background-color: black;
+  padding: 20px;
+  color: white;
+  display: flex;
+  /* for (.. or 1,2,)style removing */
+  list-style: none;
+  align-items: center;
+  /* aline working for height line oe level */
+  justify-content: space-around;
+  /* justify working row line */
+}
+.logo-photo {
+  width: 120px;
+}
+.menus {
+  display: flex;
+}
+.items {
+  margin-right: 10px;
+  padding-right: 7px;
+  /* for changing cursor locking */
+  cursor: pointer;
+}
+/* for pointer color changing */
+.items:hover{
+    color: brown;
+}
