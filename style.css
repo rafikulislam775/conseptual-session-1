@@ -16,7 +16,7 @@
   /* justify working row line */
 }
 .logo-photo {
-  width: 120px;
+  width: 220px;
 }
 .menus {
   display: flex;
@@ -54,31 +54,89 @@
   font-size: 55px;
   font-weight: bold;
 }
-.banner-des{
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.banner-des {
+  font-size: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
-.btn{
-    padding:10px 20px;
-    background-color: rgb(3, 27, 3);
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
+.btn {
+  padding: 10px 20px;
+  background-color: rgb(3, 27, 3);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .btn:hover {
   background-color: rgb(42, 145, 235);
 }
 
-.about-title{
-  text-align: center;
-  padding-top: 10px;
-}
-.about-container{
+.about-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   /* for display change to reverse */
   flex-direction: row-reverse;
-
+  height: 50vh;
+}
+.about-title {
+  color: rgb(18, 1, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.box {
+  width: 230px;
+  height: 330px;
+  box-shadow: 4px 4px 15px gray;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.icon {
+  width: 70px;
+}
+.box-btn {
+  background-color: gray;
+  margin-top: 10px;
+}
+.box-title {
+  padding: 20px;
+}
+.box-description {
+  padding: 10px;
+}
+.service-container {
+  display: flex;
+  justify-content: space-around;
+  height: 70vh;
+  padding: 35px;
+}
+.service-background {
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, black, rgb(69, 6, 6));
+}
+.folio {
+  width: 120px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+  align-items: center;
+  color: white;
+  list-style: none;
+}
+.footer-background {
+  background-image: url(./images/background.png),
+    linear-gradient(45deg, black, gray);
+}
+.last {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.pdt {
+  padding-bottom: 20px;
 }
