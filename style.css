@@ -69,3 +69,16 @@
 .btn:hover {
   background-color: rgb(42, 145, 235);
 }
+
+.about-title{
+  text-align: center;
+  padding-top: 10px;
+}
+.about-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* for display change to reverse */
+  flex-direction: row-reverse;
+
+}
